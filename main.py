@@ -25,7 +25,7 @@ def download_eml():
     password = os.getenv('OUTLOOK_PASSWORD')
 
     # Connect to the IMAP server
-    imap_server = "imap-mail.outlook.com"
+    imap_server = "outlook.office365.com"
     imap_port = 993
     mail = imaplib.IMAP4_SSL(imap_server, imap_port)
 
