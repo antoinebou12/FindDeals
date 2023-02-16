@@ -1,0 +1,628 @@
+EPICERIE
+  BENORIG.RIZ CONV                    8.49
+   Rabais 0.50
+  FRFLAK.CER.MIEL                     5.99
+  AVCROQU.CER.TRIO                    8.99
+FRUITS LEGUM
+  CAISSE MANGUE RO                    7.99
+  OIGNON JAUNE 2LB                    1.99
+   Rabais 0.50
+  (4)MINI CAROTTE COU
+    4 @ $2.69                        10.76
+  POIVR.DX ASSORTI                    6.99
+  POMME MCINTOSH                      7.99
+  CAROTTE JULIENNE                    2.69
+  COEURS DE ROMAIN                    7.99
+  CAISSE AVOCAT                       7.99
+   Rabais 2.00
+  MES POINTS BONUS                7 Points
+  JUS POMME MANGUE                    4.99
+  ATTITUDE RECOLTE                    4.99
+  JEUNE EPINARD                       3.99
+   Rabais 3.00
+  MES POINTS BONUS                3 Points
+VIANDE
+  OLIVIERI GNOCCHI                    6.99
+  POULET CAT A                       16.47
+  COTELETTES PORC                    10.39
+CHARCUTERIE
+  SELECTION PEPPER                   11.99
+MICHE
+  CROISSANT 100% B                    4.49
+  TORTILLAS SALSA                     4.99
+   Rabais 0.50
+  NAAN NATURE                         4.29
+FROMAGE
+  TRE STELLE FETA                    21.99
+  IRRS.PARMIG.REGG                    6.13
+METS CUISINE
+  P.MOISSON SAUCE                     9.99
+   Rabais 2.00
+  PATE2000 CROUT.P                    7.49
+   Rabais 0.50
+CHEF EN MAGA
+  SAUCE VIANDE                       10.99
+   Rabais 1.00
+
+
+EPICERIE
+  7UP BOIS.GAZ.CAN             FP     3.99
+   Rabais 1.00
+    dépôt de bouteille                0.30
+FRUITS LEGUM
+  FRUITS LEGUM                        5.99
+  CAROTTE BIO.                        3.99
+  CELERI BIO                          4.99
+  TOMATES RAISINS                     4.99
+  CHOU-FLEUR BIO.                     5.99
+  LAITUE ICEB.BIO                     5.99
+  (2)BLEUET BIO
+    2 @ $4.99                         9.98
+  POMMES DE TERRE                     5.99
+  SAL.MEL.PRINTAN.                    8.99
+  KIT SALADE SUD O                    8.99
+  CONC.S.PEPIN BIO                    2.99
+VIANDE
+  OLIVIERI GNOCCHI                   10.99
+  BIFTECK POIVRE                      9.90
+CHARCUTERIE
+  OL JAMBON EMINCE                    7.79
+MICHE
+  CROISSANT 100% B                    4.49
+  MERITE CHAUSSON              FP     5.79
+  PAIN ROND TORSAD                    6.49
+BBQ
+  NATUR.POULET ENT             FP    13.99
+  POINTS BONUS                   50 Points
+METS CUISINE
+  P.MOISSON SAUCE                     9.99
+   Rabais 2.00
+  SH QUICHE LORRAI                   10.49
+
+
+EPICERIE
+  CANDRY B.GAZ.BTL             FP
+    2 @ 2/$4.50                       4.50
+   Rabais 1.48
+    dépôt de bouteille
+    2@$0.05                           0.10
+POISS.FRAIS.
+  PROMOTION 20 MOR             FP    15.99
+
+  EPICERIE
+  (2)SELECTION BAR.CR
+    2 @ $2.79                         5.58
+  RKRISP.CER.SUC.S                    4.79
+  RAISBR.CER.AVOIN                    5.49
+  (2)OASIS JUS
+    2 @ $1.99                         3.98
+FRUITS LEGUM
+  FRUITS LEGUM                        5.99
+  CAROTTES COUPEES                    4.99
+  MEL.CHOC.NOIR FR             FP    12.99
+  MANGUES SECHEES              FP     8.99
+  RAIS.VERT SP MOY
+    1.110 kg Brut
+    -0.010 kg Tare =
+    1.100 kg Net @ $7.69/kg           8.46
+   Rabais 3.64
+  (2)MANGUE
+    2 @ $2.99                         5.98
+  MURE BIO                            4.99
+  FRAMBOISES BIO.                     4.99
+  (2)BLEUET BIO
+    2 @ $3.99                         7.98
+  KIT SALADE SUD O                    8.99
+  POIRE BARTLETT B
+    0.320 kg @ $7.25/kg               2.32
+MICHE
+  ST-VIATEUR BAGEL                    6.49
+  BAGEL BLEUET                        3.99
+PRODUIT LAIT
+  (2)ACT.YOG.VANILLE
+    2 @ $3.33                         6.66
+   Rabais 3.72
+  POINTS BONUS                   30 Points
+  PLUS LAIT 2% 18G                    7.29
+  BURNBR.OEUF                         7.79
+METS CUISINE
+  CO SOUPE POIS                       5.99
+   Rabais 1.00
+  POINTS BONUS                   30 Points
+  CO.POTAG.VELOUTE                    5.99
+   Rabais 1.00
+  POINTS BONUS                   30 Points
+  CO.SOUPE CAMPAGN                    5.99
+   Rabais 1.00
+  POINTS BONUS                   30 Points
+
+POISS.FRAIS.
+  ASB SUSHI CARTE              FP    21.98
+
+
+FRUITS LEGUM
+  FONDUE CARAMEL F                   13.99
+CHARCUTERIE
+  SE PEPPERONI TR.                    6.29
+   Rabais 0.50
+  FS BRUSCHETTA                       6.29
+   Rabais 0.50
+PRODUIT LAIT
+  HAAGEN BAR.GL. M             FP     4.99
+   Rabais 1.70
+PROD SURG
+  BATRGE FRITE PAT                    4.49
+   Rabais 0.80
+VIN CIDRE
+  NICOLAS L. BOIS.             FP    10.29
+FROMAGE
+  (2)SH CHEDDAR GRAIN
+    2 @ $6.99                        13.98
+BBQ
+  SH SAUCE POUTINE                    3.29
+   Rabais 0.50
+METS CUISINE
+  PATE2000 CROUT.P                    6.49
+   Rabais 1.50
+DONS
+  DON BANQUE ALIME                    2.00
+
+
+EPICERIE
+  CRUSH B.GAZ.CAN.             FP     1.00
+    dépôt de bouteille                0.05
+  CDRY B.GAZ.CAN.S             FP     1.09
+    dépôt de bouteille                0.05
+PROD SURG
+  FCAVEND.FRITE RG                    3.79
+  POINTS BONUS                   15 Points
+FROMAGE
+  SH CHEDDAR GRAIN                    6.99
+BBQ
+  SH SAUCE POUTINE                    3.49
+   Rabais 0.30
+  REPAS BOUCHEE PO             FP     7.99
+
+PLANTES
+  BOUQUET                      FP    14.99
+
+EPICERIE
+  (2)SELECTION B.GAZ.          FP
+    2 @ $0.59                         1.18
+    dépôt de bouteille
+    2@$0.05                           0.10
+
+EPICERIE
+  PEPSI BOUTEILLE              FP
+    1 @ 2/$4.50                       2.25
+   Rabais 0.54
+    dépôt de bouteille                0.05
+POISS.FRAIS.
+  ASB SUSHI CARTE              FP    12.78
+
+EPICERIE
+  QUAK.GRUAU INS.D                    3.49
+   Rabais 1.50
+  IRRS.FEUILLETE S
+    1 @ 2/$5.00                       2.50
+   Rabais 0.99
+FRUITS LEGUM
+  TR.MICROPOUSSE R                    8.99
+   Rabais 1.00
+VIANDE
+  BIFT.HT SURLONGE                   10.11
+   Rabais 11.37
+POISS.FRAIS.
+  AS ASSIETTE CHOI             FP    13.99
+
+EPICERIE
+  PEPSI BOUTEILLE*             FP
+    1 @ 2/$4.50                       2.25
+   Rabais 0.54
+    dépôt de bouteille                0.05
+CHARCUTERIE
+  FS SAL.COUSCOUS              FP     6.29
+
+  EPICERIE
+  EPICERIE                           17.50
+  PEPSI BOUTEILLE*             FP
+    1 @ 2/$4.50                       2.25
+   Rabais 0.54
+    dépôt de bouteille                0.05
+METS CUISINE
+  KAISER VIANDE FU             FP     5.99
+
+EPICERIE
+  SELECTION B.GAZ.             FP     0.59
+    dépôt de bouteille                0.05
+  SELECTION B.GAZ.             FP     0.59
+    dépôt de bouteille                0.05
+BBQ
+  REPAS BOUCHEE PO             FP     7.49
+
+Avantage variete associee
+  (1)COKE B.GAZ.BTL            FP
+    dépôt de bouteille                0.05
+  (1)CDRY B.GAZ.BTL.G          FP
+    dépôt de bouteille                0.05
+    2 @ 2/$4.00                       4.00
+   Rabais 1.38
+  MES POINTS BONUS                2 Points
+POISS.FRAIS.
+  AKI SUSHI PROMO              FP    11.99
+DONS
+  DON BANQ.ALIM.                      2.00
+
+POISS.FRAIS.
+  AS ASSIET.FR.MER             FP    13.99
+  AS ASSIET.FR.MER             FP    13.99
+
+  PRODUIT LAIT
+  IRRS.BOIS.THE CI                    3.33
+   Rabais 0.96
+  OASIS JUS REFRIG                    4.89
+
+Avantage variete associee
+  (1)FRAISES
+  (2)MANGUE
+    3 @ 2/$5.00                       7.50
+  POINTS BONUS                   20 Points
+EPICERIE
+  SEL.ECO SAC ORD.             FP     1.99
+  SELECTION SAC OR             FP     4.99
+  AVCROQU.CER.TRIO                    7.79
+  TUFF ESS.TOUT 88             FP     8.59
+FRUITS LEGUM
+  MINI CAROTTE COU                    1.99
+  TOMATE RAISIN BI                    7.99
+  POMME SPARTAN                       5.99
+  PATATE DOUCE
+    1.120 kg @ $4.39/kg               4.92
+  HERBE BASILIC                FP     5.99
+  CHAMPIGNON SAUTE                    5.99
+  POINTS BONUS                   30 Points
+  JEUNES EPINARD                      4.49
+VIANDE
+  SE SAUC.FUMEE                       3.99
+   Rabais 0.50
+  BIFTECK ALOYAU                     12.44
+   Rabais 16.74
+CHARCUTERIE
+  (2)BR PATE FOIE
+    2 @ $4.19                         8.38
+  DB JAMBON CUIT R                    5.89
+   Rabais 0.40
+MICHE
+  CROISSANT 100% B                    6.99
+   Rabais 0.30
+  POINTS BONUS                   35 Points
+  GAT.CHOCOLAT S.G                   14.99
+  GAUFRES STROOPIE                    4.49
+  NAAN NATURE                         3.99
+POISS.FRAIS.
+  AS ASSIETTE CHOI             FP    13.99
+  AS ASSIETTE CHOI             FP    13.99
+PRODUIT LAIT
+  SELECTION FROM.R                    3.99
+   Rabais 2.78
+  NATOEUF OEUF LAR                    5.99
+  LIB.YOG.GREC                        6.49
+   Rabais 1.00
+  PILLSB. PATE PR.
+    1 @ 2/$4.00                       2.00
+   Rabais 0.69
+  PILLSB.PATE PR.C                    4.29
+BOULANGERIE
+  POM PAIN HOT-DOG                    3.99
+   Rabais 0.50
+  TORTILLA BLANC                      4.99
+FROMAGE
+  FROMAGE BRIE PRE                    8.46
+
+
+EPICERIE
+  ST B.GAZ.BTL.INS             FP     2.69
+    dépôt de bouteille                0.05
+  CC.BO.EN.CAN.CAF             FP
+    1 @ 2/$5.00                       2.50
+   Rabais 0.49
+    dépôt de bouteille                0.05
+CHARCUTERIE
+  IR CAPICOLLO TR.                    5.99
+MICHE
+  BEIGNE SUCRE POU                    4.99
+
+EPICERIE
+  CLASSIC.SCE PATE                    3.99
+   Rabais 0.50
+  CLASSICO PESTO                      4.99
+  TRIDENT GOMME                FP     1.99
+  OEPASO ENS.TACO                     4.29
+  (2)OEPASO ASSAIS.TA
+    2 @ $1.79                         3.58
+  TOST.SALSA MOYEN                    4.49
+  (2)TOST.CROUS.TOR.Z          FP
+    2 @ $4.49                         8.98
+  CDRY BTL SOD.GIN             FP
+    1 @ 2/$3.00                       1.50
+   Rabais 0.49
+    dépôt de bouteille                0.05
+  AVCROQU.CER.TRIO                    7.79
+  SPRITE BOUTEILLE             FP
+    1 @ 2/$5.50                       2.75
+   Rabais 0.54
+    dépôt de bouteille                0.05
+  DELVERDE PATE AL
+    2 @ 2/$5.00                       5.00
+   Rabais 2.38
+  (4)SAC MONTREAL MET          FP
+    4 @ $0.15                         0.60
+FRUITS LEGUM
+  PLATEAU SAVOUREU             FP     9.99
+  (3)AVOCAT HASS
+    3 @ $2.99                         8.97
+  POIVRON DOUX ROU
+    0.420 kg @ $8.80/kg               3.70
+   Rabais 0.92
+  TOMATES ROUGES E
+    0.730 kg @ $4.39/kg               3.20
+   Rabais 1.61
+  CORIANDRE                           1.99
+  FRAISES                             3.99
+   Rabais 1.00
+  FONDUE CARAMEL F                    8.99
+  AIL TRESSE                          5.99
+  LAITUE BOST.DUO                     3.99
+VIANDE
+  ML BACON RED.SEL                    9.99
+  BOEUF HACHE   MG                   14.42
+CHARCUTERIE
+  FS TREMPETTE AUX                    6.99
+PRODUIT LAIT
+  TROPIC.JUS REF.1                    5.49
+  TROPIC.BOIS.REF.             FP     5.29
+  ACT.YOG.VEG.VAN.                    5.99
+  NATOEUF OEUF LAR                    5.99
+  SIGN.FROM.RAPE M                    9.49
+  BLACKDI.FROM.RAP                    6.99
+   Rabais 2.00
+  PE OEUF LIQ.VEG.                    6.79
+BOULANGERIE
+  TORTILLA BLANC                      4.99
+SANTE BEAUT
+  DOVE SOIN CHEV               FP     6.39
+METS CUISINE
+  PG TOURTIERE                       12.99
+
+Avantage variete associee
+  (1)TOST.CROUS.TOR.R          FP
+  (1)TOST.CROUS.TOR.Z          FP
+    2 @ 2/$8.00                       8.00
+   Rabais 0.98
+Avantage variete associee
+  (1)RESTST. FRITE DR
+  (1)RESTST.FRITE GOU
+    2 @ 2/$6.00                       6.00
+   Rabais 2.98
+EPICERIE
+  SELECT.PATE ALI                     2.99
+  STACY CROUS.PITA             FP     3.99
+  STACY CROUS.PITA             FP     3.99
+  CASHM.PAP.HYG.24             FP    10.49
+  CHOUSE AS.ITALEN                    6.99
+   Rabais 2.50
+  GALLO HUILE OLI                     7.49
+   Rabais 4.00
+  HELLM.MAYO.EPICE                    5.29
+  (5)SAC MONTREAL MET          FP
+    5 @ $0.15                         0.75
+FRUITS LEGUM
+  FRUITS LEGUM                        3.29
+  POMME SPARTAN                       2.96
+   Rabais 3.03
+  PLATEAU FRUIT                FP    14.99
+  JUS LIMONADE                 FP     3.49
+  LAITUE BOST.DUO                     3.99
+VIANDE
+  BIFTECK ALOYAU                     13.56
+   Rabais 15.08
+  BIFTECK POIVRE                     10.48
+   Rabais 1.05
+  POINTS BONUS                   50 Points
+  TRANCHES SURLONG                    9.59
+PRODUIT LAIT
+  SELECT.OEUF                         4.19
+  SAPUTO FROM.RAPE                   16.49
+   Rabais 3.00
+PROD SURG
+  (2)RISTOR.PIZZA SRG
+    2 @ $4.99                         9.98
+   Rabais 2.00
+  IRRS.FRUIT CONG                     4.99
+   Rabais 0.80
+  SELECTION PIZZA                     6.29
+BIERE
+  CORONAEX.BIERE B             FP    23.99
+    dépôt de bouteille                1.20
+FROMAGE
+  L EX BRIE                           8.24
+   Rabais 1.15
+  ALBERT S LEAP LE                    7.99
+   Rabais 1.50
+
+FRUITS LEGUM
+  PLATEAU MEL.GRIG             FP     7.99
+MICHE
+  TARTE POM.CARA.                     5.29
+POISS.FRAIS.
+  BW POIS.PANE POR                    6.99
+  POINTS BONUS                   30 Points
+PRODUIT LAIT
+  TROPIC.BOIS.REF.             FP     3.99
+  QUEBON LAIT 2%                      3.90
+  SELECT.OEUF                         4.99
+VIN CIDRE
+  SVELTE BOIS.VIN              FP     9.49
+FROMAGE
+  FROMAGE CHAUMES                     9.70
+
+EPICERIE
+  CLASSIC.SCE PATE                    3.79
+  SEL.SAUCE TOMATE                    1.39
+  SELECT.SCE TOMAT                    1.39
+  IRRS.CHAPELURE                      2.79
+  TOST.SALSA MOYEN                    4.19
+  (3)SAC MONTREAL MET          FP
+    3 @ $0.15                         0.45
+FRUITS LEGUM
+  BANANE PREMIUM
+    1.565 kg @ $1.96/kg               3.07
+  MANGUE
+    2 @ 3/$5.00                       3.34
+  FRAMBOISE 170G
+    3 @ 3/$4.88                       4.88
+  JUS LIMONADE-FRA             FP     4.99
+VIANDE
+  BB BURG.BASE PLA                    7.99
+  OSM MANICOTTI 3                     7.99
+PRODUIT LAIT
+  OIK.YOG.GREC VAN                    4.99
+  POINTS BONUS                   25 Points
+  SELECTION FROM.R                    9.99
+
+EPICERIE
+  CDRY B.GAZ.BTL.S             FP
+    1 @ 2/$5.50                       2.75
+    dépôt de bouteille                0.05
+  CRISPERS AM GUEU             FP
+    1 @ 2/$5.00                       2.50
+FRUITS LEGUM
+  JUS COCKT.PECHE                     3.99
+  LAITUE BOSTON                       3.49
+VIANDE
+  IR RAVIOLI FROM.                    3.99
+  PILON POULET                        8.54
+CHARCUTERIE
+  FS HUMMUS MAROCA                    4.79
+PRODUIT LAIT
+  ACT.YOG.VANILLE
+    2 @ 2/$6.00                       6.00
+  NATREL FINFILT.L                    8.79
+  BURNBR.OEUF GROS                    4.80
+  PTQUE.FROM.RAPE                    12.99
+  SOLOFR.SORB.MANG                    5.19
+
+EPICERIE
+  BERTOLLI HUI.OLI                    7.99
+FRUITS LEGUM
+  TOMATES MELANGEE                    7.99
+  JN.EPINARD BIO.                     4.99
+PRODUIT LAIT
+  QUEBON ULTRAC.CR                    4.29
+
+EPICERIE
+  STACY CROUS.PITA             FP     3.99
+  CDRY B.GAZ.BTL.GING.CANNEBER FP     2.49
+    dépôt de bouteille                0.05
+CHARCUTERIE
+  ST HUB.SALAD.CHOU CREM.      FP     3.79
+
+EPICERIE
+  CC.B.GAZ.BTL.VANILLE         FP     2.49
+    dépôt de bouteille                0.05
+FRUITS LEGUM
+  SALADE DE MELONS             FP     4.29
+CHARCUTERIE
+  ST HUB.SALAD.CHOU CREM.      FP     3.79
+  MES POINTS BONUS                3 Points
+
+EPICERIE
+  MINMAID JUS 100% ORANGE      FP     2.79
+CHARCUTERIE
+  PG.SALADE COUSCOUS 5 LEGUMES FP     5.99
+FROMAGE
+  SH CHEDDAR GRAIN                    5.99
+
+EPICERIE
+  BARE CROU AM G.CANN.POMME    FP     4.99
+  BRISK THE GL.CAN FBR                0.88
+
+EPICERIE
+  (2)QUAK.GRUAU INS.DINOSOEUF
+    2 @ $4.29                         8.58
+  POINTS BONUS                   40 Points
+  BIST.EXP.RIZ
+    2 @ 2/$5.50                       5.50
+   Rabais 2.08
+  SELECT.POUD.GEL
+    1 @ 3/$2.00                       0.67
+  CHUNK.SOUP.P.A.S                    3.99
+  APPJACKS CER.POM.CANN.              5.29
+FRUITS LEGUM
+  CLEMENTINES                         3.99
+   Rabais 1.00
+  CAROTTE COULEUR BIO*                4.99
+  BANANE PREMIUM
+    1.195 kg @ $1.74/kg               2.08
+  OIGNON VERT                         1.29
+  POIVRON DOUX ROUGE DE SERRE
+    0.370 kg @ $11.00/kg              4.07
+POISS.FRAIS.
+  BW POIS.PANE PORT.GOBERGE           6.99
+   Rabais 3.00
+
+EPICERIE
+  SELECTION B.GAZ.CAN.CO.RG.D. FP     0.60
+    dépôt de bouteille                0.05
+FRUITS LEGUM
+  PAMPLEMOUSSE RGE
+    1 @ 2/$5.00                       2.50
+
+
+EPICERIE
+  DRPEPPER B.GAZ.CAN           FP     1.00
+    dépôt de bouteille                0.05
+BBQ
+  REPAS BOUCHEE POULET         FP     6.49
+
+EPICERIE
+  TOST.CROUS.TOR.RONDE MULTIG. FP     3.89
+   Rabais 0.30
+CHARCUTERIE
+  FS HUMMUS                           4.49
+  POINTS BONUS                   20 Points
+  FS.TZATZIKI                         4.49
+  POINTS BONUS                   20 Points
+MICHE
+  BAGUET.FRANCAISE                    2.69
+   Rabais 0.60
+PRODUIT LAIT
+  OIK.YOG.CAPPUC.9                    4.69
+  SELECT.OEUF                         4.49
+  SELECTION FROM.RAPE TEX MEX         9.99
+PROD SURG
+  EGGO GAUF.SURGEL                    3.89
+  FABRIQ.PIZZA GARNIE                 4.99
+  MI REP.SURG.LASAGN.VI.
+    1 @ 3/$5.00                       1.67
+   Rabais 1.32
+VIN CIDRE
+  WHCLAW EAU G.ALC.SAV.VARIE   FPX   23.99
+   Rabais 1.00
+    dépôt de bouteille                0.60
+FROMAGE
+  LE BARON FROMAGE BRIE              13.17
+
+  Avantage variete associee
+  (3)MANGUE
+    3 @ 3/$5.00                       5.00
+   Rabais 0.97
+FRUITS LEGUM
+  LAITUE ROMAINE
+    1 @ 2/$3.00                       1.50
+   Rabais 1.49
+BOULANGERIE
+  (2)PAINS HAMB.DE POMME DE TERRE
+    2 @ $3.49                         6.98
+   Rabais 1.00
+  2 POUR 6.00                        -0.98

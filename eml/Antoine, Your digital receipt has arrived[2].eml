@@ -1,0 +1,865 @@
+Received: from BN8PR04MB6066.namprd04.prod.outlook.com (2603:10b6:408:4e::19)
+ by DM6PR04MB4604.namprd04.prod.outlook.com with HTTPS; Tue, 17 Jan 2023
+ 18:08:15 +0000
+Received: from BN9PR03CA0329.namprd03.prod.outlook.com (2603:10b6:408:112::34)
+ by BN8PR04MB6066.namprd04.prod.outlook.com (2603:10b6:408:4e::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5986.23; Tue, 17 Jan
+ 2023 18:08:13 +0000
+Received: from BN7NAM10FT089.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:408:112:cafe::86) by BN9PR03CA0329.outlook.office365.com
+ (2603:10b6:408:112::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6002.19 via Frontend
+ Transport; Tue, 17 Jan 2023 18:08:13 +0000
+Authentication-Results: spf=pass (sender IP is 208.91.248.105)
+ smtp.mailfrom=in-mta.transaction-metro.ca; dkim=pass (signature was verified)
+ header.d=transaction-metro.ca;dmarc=bestguesspass action=none
+ header.from=transaction-metro.ca;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of
+ in-mta.transaction-metro.ca designates 208.91.248.105 as permitted sender)
+ receiver=protection.outlook.com; client-ip=208.91.248.105;
+ helo=mta4.bulletin-metro.ca; pr=C
+Received: from mta4.bulletin-metro.ca (208.91.248.105) by
+ BN7NAM10FT089.mail.protection.outlook.com (10.13.156.223) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6002.13 via Frontend Transport; Tue, 17 Jan 2023 18:08:13 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:0524E27062FEF8B712C288F722E08DB4A696B32CC5203737A439DA6E499B95C0;UpperCasedChecksum:ADC1FE3C2A062A3B089C6C603C3D91D766E1E1C26441A3B428A9C6BEE04F7537;SizeAsReceived:2079;Count:15
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=di; d=transaction-metro.ca;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:
+ List-Unsubscribe:From:Reply-To:To:Subject:Feedback-ID;
+ i=transaction@transaction-metro.ca;
+ bh=q3gH7eaz26di/nBZl66IXSnF6FvG3Wqj8pZPfqEi7xo=;
+ b=cj7x1UKfoppi3MhE3zXzdmmIcZxUfNzEbHx0TEAmTxvuDV0tKakHaIXTgoJ9A6bKTE5kSr9eaC6D
+   TcQ/4Djj5cki07nFGRWw0qL/ZuJvxYG/o8UnmD1Z4f9DbVtaQu3VaBy1mdrcdo7pLDpQFuhmerYx
+   4yglEo7nRFLgrUalabz5g9Ncr2UCU8w0Gz2R8rW1+gG8kLyi5e6kbdBCM9iPLlkePOfoYiNSnmNz
+   +wBMI/AeLAZc1d7G01LtLE8lZ5qbnCyNjt1JCw+rhicEgIqJrG/dnJQGeBAh1WD8N/2f9GSK0U5r
+   HpvL02d4O/y0R/0YOnt5ehphaT6FjLUh72JjiA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=di; d=c624.s1.diauth.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:
+ List-Unsubscribe:From:Reply-To:To:Subject;
+ bh=q3gH7eaz26di/nBZl66IXSnF6FvG3Wqj8pZPfqEi7xo=;
+ b=weHAZCq50sCWKlK8xn5MHia5hfPyTSUdAwX92qEQ2ftVnux/bXddj54lXh+azHlZWV/X2AdSt37s
+   CEfTS5sXJBCj667BzLVy3iVq7W8X5fLo4doPxRfHcHCIpLaWefAAIm7DEq8ChuxBheoDcrER3NYD
+   7A3ujvHnrpnUf6Rb6JY/sV5uFTgArdLIO2YCaBrhcj53hM/XZa6vauWhPMdy0UqVnJgUrAR4abm+
+   PigA10F2N+I2I7OZm4jzxU82qbHDUqC1Ca0syn2i6wSKWwL018WUd302f0+OMVKbo4D/tqS5e5TK
+   RCu6l6pTm7yzdWVZUFqk8NnIKCKnc+MyaZGUVQ==
+Received: by mta4.bulletin-metro.ca id hori0q2ma501 for <antoine_boucher@outlook.com>; Tue, 17 Jan 2023 13:08:13 -0500 (envelope-from <kQ5Bs4hQwPdWcSvT3Cc5nRaAgF3Vn@in-mta.transaction-metro.ca>)
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <kQ5Bs4hQwPdWcSvT3Cc5nRaAgF3Vn@in-mta.transaction-metro.ca>
+Date: Tue, 17 Jan 2023 13:08:13 -0500
+List-Unsubscribe: <mailto:kQ5Bs4hQwPdWcSvT3Cc5nRaAgF3Vn@unsubscribe.ofsys.com>
+From: Metro Receipts <transaction@transaction-metro.ca>
+Reply-To: Metro Receipts <no-reply@transaction-metro.ca>
+To: Antoine Boucher <antoine_boucher@outlook.com>
+Subject: Antoine, Your digital receipt has arrived.
+X-Mailer: DialogInsight
+Feedback-ID: M733969:P6326:C624:dialoginsight
+X-IncomingHeaderCount: 15
+Return-Path: kQ5Bs4hQwPdWcSvT3Cc5nRaAgF3Vn@in-mta.transaction-metro.ca
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Jan 2023 18:08:13.6408
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 1375bbef-0c85-4455-ebd6-08daf8b5cce0
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN7NAM10FT089:EE_|BN8PR04MB6066:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN7NAM10FT089.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 1/17/2023 6:06:39 PM
+X-MS-Office365-Filtering-Correlation-Id: 1375bbef-0c85-4455-ebd6-08daf8b5cce0
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.91.248.105
+X-SID-PRA: TRANSACTION@TRANSACTION-METRO.CA
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 2
+X-Microsoft-Antispam: BCL:3;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Jan 2023 18:08:13.5158
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1375bbef-0c85-4455-ebd6-08daf8b5cce0
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN7NAM10FT089.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN8PR04MB6066
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5646086
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5986.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100338)(4810004)(4910033)(8820095)(9910022)(9545005)(10170022)(9320005);
+X-Message-Info:
+	qZelhIiYnPm4+jfEOabhGoO68N67OR2xoocVSIrbt9xF6N/poR1dl2jSQS/3tbgRjuMll2wgA6qVBJukJtXBoHHlE2Y/wj5mjCKH2n73dwnCLOXmTBlySKDB63TDMZQ7Uh9OOrTdJbhMUA6AR+/VxaZZo3VM2YPNc08AuO6+lIMGJr9kZGIR32SWj7Eu9wlTufZkhK+YV5kqYc/8dbMmDA==
+X-Message-Delivery: Vj0xLjE7dXM9MTtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?TjBtNU53OTlNUnduUmlDS0dGb1NSbjNEY1lwUTQ5VU9hdUZlSzN0em1iQk5Z?=
+ =?utf-8?B?L2hidCtTM005UmFTS2ZxcnpEVXpYTHoySVVZQTR3KzVseU5UODhkZW9YWEhM?=
+ =?utf-8?B?WWRmQlE4UTA0RW44OU5wVTJXelh1NG1WbXJ2Q2RwMThiMzFDNVVtM1J3czNh?=
+ =?utf-8?B?dWNwU3haQmgrNVI5SVFRNGY5bkVpV3ZzUnVvYUYyaVAyVHNVS1VpVTM0bEFa?=
+ =?utf-8?B?WVFuWmJHVjNKTGt2eVpCQnFRamhGM0lrYTF2WGtaUTFnTkM0WHZhOFJXQjRN?=
+ =?utf-8?B?NStvMysxTmQ2YWdXSk5Dd29UQ1YvOFZtZk81UVpncUFRb05YQlRaczR3bW8r?=
+ =?utf-8?B?Y3hEQ1dEWko2N0VkMHNJcTFpWSszZldQR05mUzVDenBLbnVCYndlQTYxQjNs?=
+ =?utf-8?B?ekNsVXl0Ynd5UzlXb0lLeXR2M0VZWjMrdEh3eW1ET1U2N0ExMlBROXRDT2dD?=
+ =?utf-8?B?S2VsU3JJakNkd2dXMmxQYWFSUlduRjBEYkV5Y3Z1bmVMSFdjM3hYRmkyRGwz?=
+ =?utf-8?B?N1ZzRUdLUWtrUi9mQjVKRHJFNlFRalZKaXNkWGVSYXdlaWtRMHQyRXBVL21M?=
+ =?utf-8?B?UVN2VGpUOVpYUm5MQjRubEdtYjRIbnF6bzhIRjdvSVg2SGp5Vm8wRzA3dWVm?=
+ =?utf-8?B?aHJkZEhTbjBZbGtKUzBhT1VBaFJLYVNHcU83azdqaUpvaHhPdXYzQnNXRnJw?=
+ =?utf-8?B?OU01ZEVpNG9CdWZjL3daaktjT2hnemprL0xjZVFqaFc0ci8wcmYydWhSU0JD?=
+ =?utf-8?B?N2I4L1ByU28zQytJOVBKYlQ5VjFOdGxyenVleXNWMHNsK0NRVXZuRFFJQk9w?=
+ =?utf-8?B?eWNmY3kzWitEZi9iS0x5NVJ1bisvTTg4WHJzUHFKYnVwbWJ6Q2ZnaUZMTG44?=
+ =?utf-8?B?NVo3QTJHUHBoaVlhL0VGQkN0dGxtNWVvZnE1VDl5eFk1RXNQSUxuZGxTY2xC?=
+ =?utf-8?B?SkpZeFlmSDhDS3JwNm85MlJjRGZjaTIrY3NldlZpQjJHeGI3UC84TklVcTZj?=
+ =?utf-8?B?eGJxTmhQWWVRT05mVnJTUzFzRE4xU1N5NXRBRk1qN21wTDdSMUtlaXcrOWJt?=
+ =?utf-8?B?OWtxNHRLV0Qwd0FOcXV5Mk1DckVYYmhXWFBDejU2RWdONDVxVXZLS25XUXZk?=
+ =?utf-8?B?bEh5VjBPK0p6RnI3aXdOR1ZMR3I0SlI5eThSRnVjYzdQaVM1d0hmYmRNTm5E?=
+ =?utf-8?B?TENQNFZLbXJ3UE1jdW1XbENUb2lHYWhSc3RyL0REWmFHcU96aytwc0RDVzJl?=
+ =?utf-8?B?bDZ3b0F1MTFzUUlCUUlBQmFQcTl2QWhlSWU2VHRUZWhCMmF5Z0lpaVFwNFpm?=
+ =?utf-8?B?TDRmMWU3WEpaMXFxZFdjVUhoV0pjYUdSejJJZ0d6L3E4UVNaZU9IYm9BRlVI?=
+ =?utf-8?B?ZlUvK0MweWVxa0hkbnZXM1p0aE1MZDB2SGlRK0FHQmZqL2doRHkyQnpxTnNI?=
+ =?utf-8?B?bDlYQkoxUjUrUHhsOEhTMlR0bC9aM05UZVFTZmpnb1VxdmlXTnZyZWZBWGJC?=
+ =?utf-8?B?Y21PNXo3KytBdE94bnBJaEI5RnVVaUhlWjlqRWpET3Y4bE54VjB6Y3FLNEZa?=
+ =?utf-8?B?MEJhQ3VZbkc1bXdDSWpDZ1VMUUZYUjZCVGlrU1NXNmpSTXhOZldIRUswcDB6?=
+ =?utf-8?B?dFMrWnBMNFUvRUhvaUhNckREMWlPaU1zcVVRZ0lhb2plZHd0NWdNZHBjNjdW?=
+ =?utf-8?B?WkNDNGtXdGtTbzliUi9RZkk2NzRDbWxYMTBwNTlpSFZCMGx1clAvZ1JISCtR?=
+ =?utf-8?B?eTJhbXNOUXNYZmtscEdkRm1iaXUrYlVNYk9JQnBEU21lRVZFUWNLZFpDazZo?=
+ =?utf-8?B?ejl0WlZhRUllcGVkZ1g0OEF3OGtkaXZhRURqbTRvbXpWa09LeTFnU1ZyV2Fn?=
+ =?utf-8?B?U0g3bzRxcUNVbnB6N1FDcmNSZGFtZ3RBYnVKN21Od096YjdIc2J0R2VuYnZt?=
+ =?utf-8?B?VjJVbmJBQzg5YzBrcmVKK2R6Qk5VK0dnN3pPeTVBNWJTZ2t2TVlSQUZzR3BX?=
+ =?utf-8?B?Q3cxSEtPaklETithbmNKTHVyUFV5dHJXOFhPeHVVZm1oQ21DYzk2QzVkcUhC?=
+ =?utf-8?B?RlNia1lqSitURVBudUx2Ymg0eExYVkQ1VE93cTQ0RU5tK2xOT0ZZLytRWlZh?=
+ =?utf-8?B?T1dIU214QjZNRTdTVWdVUG9hUjNyS0V0Q1FqbFRIaWkvS2E3TXpyZkVYY0dl?=
+ =?utf-8?B?OW1pam5NUXlVNExtak12bGx2Mm5YN3FPWWpQSzBXbVoyZTN3N09JOUdIOGNo?=
+ =?utf-8?B?dkp0YUNEdnRublAxWDhHd1RMZ1k0c2ZJQTBVQkFaUG01UHVCN3J0WGZGRWJE?=
+ =?utf-8?B?dDJIbDJZNTN1alVCc20wMkN5VGFRcm1iTDlodzdRb3M0YlZBaXYxVFJFaGM1?=
+ =?utf-8?B?QXNiSzRjQjdwWWNtU3Q0MjZkMGh1akN2ejlyM3EzMVE5SmdOc25uUm5TbUdw?=
+ =?utf-8?B?LzNyTXlMQmVKTGo4cGM2YUFVYXBUQm9CT2lqZHl2a0J3amFvQ1NCcTRPajhl?=
+ =?utf-8?B?dGJZRlJpMjVGU09ZSjJERlQ0eDB5N29DOGc4aVNpdTMrZ3ZvZzhFbVg5eEQ1?=
+ =?utf-8?B?YXNrTGQ4VnlEYytienFMaTlGRTJlck80Y1c4eTFsOE1ScVFDM3pZYkhnczNC?=
+ =?utf-8?B?VUZReWF3ajFLTnJ6YXcyWnV0VStsZUkzY2h4SHFOVFBtVzBJc2I3NmJzc1Nx?=
+ =?utf-8?B?bzVzSDljOTUrTXM5MTRlaVZCWnBURVNxRmc9PQ==?=
+MIME-Version: 1.0
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!DOCTYPE html><htm=
+l xmlns=3D"https://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-=
+com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[if =
+gte mso 9]><xml>=0A=
+     <o:OfficeDocumentSettings>=0A=
+      <o:AllowPNG/>=0A=
+      <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+     </o:OfficeDocumentSettings>=0A=
+    </xml><![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Antoine, Your digital receipt has arrived.</title>=0A=
+    <meta name=3D"robots" content=3D"noindex, nofollow">=0A=
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, maximum-scale=3D1">=0A=
+    <meta name=3D"x-apple-disable-message-reformatting">=0A=
+    <!--[if !mso]><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge=
+" />=0A=
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3D8"/><![endif]-->=
+=0A=
+=0A=
+    <style type=3D"text/css">=0A=
+        /* All loaded because some blocks can override the default FontFami=
+ly */=0A=
+        @import url(https://fonts.googleapis.com/css?family=3DLato);=0A=
+        @import url(https://fonts.googleapis.com/css?family=3DRoboto);=0A=
+        @import url(https://fonts.googleapis.com/css?family=3DOpen+Sans);=
+=0A=
+        @import url(https://fonts.googleapis.com/css?family=3DOswald);=0A=
+        @import url(https://fonts.googleapis.com/css?family=3DMontserrat);=
+=0A=
+        @import url(https://fonts.googleapis.com/css?family=3DDosis);=0A=
+        @import url('https://fonts.googleapis.com/css?family=3DRoboto+Mono'=
+);=0A=
+=0A=
+    =0A=
+=0A=
+        p{ margin:10px 0; padding:0;}=0A=
+        h1, h2, h3, h4, h5, h6{display:block; margin:0; padding:0;}=0A=
+        img, a img{border:0; height:auto; outline:none; text-decoration:non=
+e;}=0A=
+        body, #bodyTable, #bodyCell{height:100%; margin:0; padding:0; width=
+:100%;}=0A=
+=0A=
+        * {box-sizing: border-box;-moz-box-sizing: border-box;}=0A=
+        * {-webkit-text-size-adjust:none;}=0A=
+=0A=
+        body{margin: 0; padding: 0;width:100% !important;height:100% !impor=
+tant;background-color: #F4F4F4;}=0A=
+        body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%; mso-line-height-rule:exactly; }=0A=
+        div[style*=3D"margin: 16px 0"] { margin:0 !important; }=0A=
+        table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; table-layou=
+t:fixed; } /* Remove spacing between tables in Outlook Desktop. */=0A=
+        table table { table-layout: auto; }=0A=
+        img { -ms-interpolation-mode:bicubic; } /* Force IE to smoothly ren=
+der resized images. */=0A=
+        a[x-apple-data-detectors]{ /* Force iOS devices to heed link styles=
+ set in CSS. */color:inherit !important;text-decoration:none !important;fon=
+t-size:inherit !important;font-family:inherit !important;font-weight:inheri=
+t !important;line-height:inherit !important;}=0A=
+        #outlook a { padding:0; } /* Force Outlook 2007 and up to provide a=
+ "view in browser" message. */=0A=
+        .ExternalClass { width: 100%; }=0A=
+        .ExternalClass * {line-height: 100%;}=0A=
+        .textLink a {color: #333333 !important;text-decoration: none !impor=
+tant;}=0A=
+        =0A=
+    =0A=
+        =0A=
+    =0A=
+        =0A=
+    =0A=
+    =0A=
+        .textLinkA3B1C0 a {color:#333333 !important;text-decoration:underli=
+ne !important;}=0A=
+.textLinkA4B1C0 a {color:#FFFFFF !important;text-decoration:underline !impo=
+rtant;}=0A=
+=0A=
+    =0A=
+        @media screen and (max-width: 660px), screen and (max-device-width:=
+660px)=0A=
+        {=0A=
+            /*.deviceWidth{width:320px !important;min-width:320px !importan=
+t;}*/=0A=
+            .deviceWidth{width:100% !important;min-width:100% !important;}=
+=0A=
+            .innerDeviceWidth {width:100% !important;min-width:100% !import=
+ant;}=0A=
+            .fullWidth{width:100% !important;display:inline-block;padding-b=
+ottom:10px !important;direction:ltr !important;min-width:100% !important;}=
+=0A=
+            .fullWidth50{width:45% !important;display:inline-block;padding-=
+bottom:10px !important;direction:ltr !important;min-width:45% !important;}=
+=0A=
+            .fullWidthSep{width:10px !important;display:inline-block;}=0A=
+            .ColSwitch {display:inline-block;padding-bottom:10px !important=
+;direction:ltr !important;}=0A=
+            .houdini {display:none !important;}=0A=
+            .MobileShow {display:block !important; width:100% !important; h=
+eight:auto !important; max-height:inherit !important; overflow:visible !imp=
+ortant; float:none !important;}=0A=
+            .alignTextLeft { text-align: left !important; }=0A=
+            .alignTextCenter { text-align: center !important; }=0A=
+            .alignTextRight { text-align: right !important; }=0A=
+            .alignTextJustify { text-align: justify !important; }=0A=
+            .alignLeft {float:left;}=0A=
+            .alignCenter {float:none;margin:auto;}=0A=
+            .alignRight {float:right;}=0A=
+            .resizeImg { width: 100% !important; height: auto !important; d=
+isplay: block; }=0A=
+            .adjustPadding {padding-left:10px !important;padding-right:10px=
+ !important;}=0A=
+            .deleteborder {border-right: none !important;}=0A=
+            =0A=
+            =0A=
+    =0A=
+        =0A=
+    =0A=
+        =0A=
+    =0A=
+        =0A=
+    =0A=
+        =0A=
+    =0A=
+    =0A=
+            .newFontSizeA1B1C0 {font-size:25px !important;}=0A=
+.newFontSizeA1B1C1 {font-size:15px !important;}=0A=
+.newFontSizeA2B1C0 {font-size:11px !important;}=0A=
+.newFontSizeA3B1C0 {font-size:15px !important;}=0A=
+=0A=
+        }=0A=
+        =0A=
+        @media screen and (max-width: 668px), screen and (max-device-width:=
+668px) { .ereceipt-font-size {font-size:18px !important;} }=0A=
+        @media screen and (max-width: 530px), screen and (max-device-width:=
+530px) { .ereceipt-font-size {font-size:17px !important;} }=0A=
+        @media screen and (max-width: 506px), screen and (max-device-width:=
+506px) { .ereceipt-font-size {font-size:16px !important;} }=0A=
+        @media screen and (max-width: 480px), screen and (max-device-width:=
+480px) { .ereceipt-font-size {font-size:15px !important;} }=0A=
+        @media screen and (max-width: 456px), screen and (max-device-width:=
+456px) { .ereceipt-font-size {font-size:14px !important;} }=0A=
+        @media screen and (max-width: 430px), screen and (max-device-width:=
+430px) { .ereceipt-font-size {font-size:13px !important;} }=0A=
+        @media screen and (max-width: 404px), screen and (max-device-width:=
+404px) { .ereceipt-font-size {font-size:12px !important;} }=0A=
+        @media screen and (max-width: 380px), screen and (max-device-width:=
+380px) { .ereceipt-font-size {font-size:9px !important;} }=0A=
+        @media screen and (max-width: 354px), screen and (max-device-width:=
+354px) { .ereceipt-font-size {font-size:9px !important;} }=0A=
+    =0A=
+    </style>=0A=
+	<!--[if (gte mso 9)|(IE)]>=0A=
+	<style type=3D"text/css">=0A=
+		table {border-collapse: collapse !important;}=0A=
+	</style>=0A=
+	<![endif]-->=0A=
+	=0A=
+	<!--[if mso]>=0A=
+	<style type=3D"text/css">=0A=
+	.outlook-fallback-font-family {=0A=
+		font-family: Arial, Helvetica, Sans-Serif !important;=0A=
+	}=0A=
+	.outlook-fallback-font-family-preheader{=0A=
+		font-family: Arial, Helvetica, Sans-Serif !important;=0A=
+	}=0A=
+	.outlook-fallback-font-family-receipt{=0A=
+		font-family: 'Courier New', Courrier, Arial, Helvetica, sans-serif !impor=
+tant;=0A=
+		font-size: 12px !important;=0A=
+	}=0A=
+	</style>=0A=
+	<![endif]-->=0A=
+</head>=0A=
+<body style=3D"margin:0; padding:0;">=0A=
+<!-- -->=0A=
+<div style=3D"background-color:#F4F4F4;">=0A=
+=0A=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center" valign=3D"top" style=3D"padding-top:0px;">=0A=
+=0A=
+		<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=
+=0A=
+		<tr>=0A=
+			<td id=3D"Preheader" align=3D"center" style=3D"padding: 0;">=0A=
+			<!--[if (gte mso 9)|(IE)]>=0A=
+		    <table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" style=3D"width:700px; min-width:700px;">=0A=
+			<tr><td>=0A=
+		    <![endif]-->=0A=
+		    <table width=3D"100%" class=3D"deviceWidth" style=3D"max-width:700px;=
+ Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=0A=
+=0A=
+            =0A=
+=0A=
+            </table>=0A=
+			<!--[if (gte mso 9)|(IE)]>=0A=
+            </td></tr></table>=0A=
+            <![endif]-->=0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+		=0A=
+    =0A=
+    =0A=
+    =0A=
+=0A=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=0A=
+<tr>=0A=
+    <td class=3D"OneColumn" align=3D"center">=0A=
+    	<table class=3D"deviceWidth" width=3D"700" style=3D"min-width:700px;wi=
+dth:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+>=0A=
+        <tr>=0A=
+    		<td align=3D"center" bgcolor=3D"#ffffff">=0A=
+    		    <table class=3D"innerDeviceWidth" width=3D"700" style=3D"min-widt=
+h:700px;width:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0">=0A=
+				=0A=
+		        <tr>=0A=
+		            <td align=3D"center" bgcolor=3D"#ffffff">=0A=
+            		=0A=
+                			=0A=
+    =0A=
+    =0A=
+    =0A=
+=0A=
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center">=0A=
+		<table width=3D"100%" align=3D"center" style=3D"border-collapse:collapse;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+		<tr>=0A=
+			<td align=3D"left" class=3D"outlook-fallback-font-family alignTextCenter=
+ adjustPadding newFontSizeA0B1C0" style=3D"font-family:Lato, sans-serif; fo=
+nt-size:14px; color:#000000; -ms-text-size-adjust:100%; line-height:18px; p=
+adding:0px 0px 0px 0px; text-align:left;">=0A=
+				=0A=
+                    <span class=3D"textLink"><div style=3D"display:none;fon=
+t-size:1px;color:#e6f8fa;line-height:1px;max-height:0px;max-width:0px;opaci=
+ty:0;overflow:hidden;">Thank you for your recent transaction at Metro</div>=
+=0A=
+=0A=
+=0A=
+=0A=
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=0A=
+	<tbody>=0A=
+		<tr>=0A=
+			<td align=3D"center" style=3D"background-color:#D81E05; color:#ffffff; t=
+ext-align: center; " width=3D"100%"><a href=3D"https://tracking.metro.ca/T/=
+OFC4/L2S/6326/M733969/748563/28270513/7nIYU5/1/1201925736/ABqkeCKy/I/763457=
+/p5hoqP.html?h=3DMLjh7aG-zFrnhhssvCLj61OXhBOFfXTDFHehvw44zkI" style=3D"disp=
+lay:block;text-decoration:none;text-decoration:none; color:#333333; font-we=
+ight:normal; font-style:normal;" title=3D"Metro"><img class=3D"resizeImgWit=
+hPadding" alt=3D"metro et moi" border=3D"0" src=3D"http://images.bulletin-m=
+etro.ca/data/ereceipt/header-logo-metro-et-moi.jpg"></a></td>=0A=
+		</tr>=0A=
+	</tbody>=0A=
+</table>=0A=
+   </span>=0A=
+                =0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+    =0A=
+=0A=
+                		=0A=
+            		</td>=0A=
+            	</tr>=0A=
+            	</table>=0A=
+    		</td>=0A=
+    	</tr>=0A=
+    	</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=0A=
+<tr>=0A=
+    <td class=3D"OneColumn" align=3D"center">=0A=
+    	<table class=3D"deviceWidth" width=3D"700" style=3D"min-width:700px;wi=
+dth:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+>=0A=
+        <tr>=0A=
+    		<td align=3D"center" bgcolor=3D"#ffffff">=0A=
+    		    <table class=3D"innerDeviceWidth" width=3D"700" style=3D"min-widt=
+h:700px;width:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0">=0A=
+				=0A=
+		        <tr>=0A=
+		            <td align=3D"center" bgcolor=3D"#ffffff">=0A=
+            		=0A=
+                			=0A=
+    =0A=
+    =0A=
+    =0A=
+=0A=
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center">=0A=
+		<table width=3D"100%" align=3D"center" style=3D"border-collapse:collapse;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+		<tr>=0A=
+			<td align=3D"center" class=3D"outlook-fallback-font-family alignTextCent=
+er adjustPadding newFontSizeA1B1C0 alignText" style=3D"font-family:Arial, H=
+elvetica, sans-serif; font-size:25px; color:#000000; -ms-text-size-adjust:1=
+00%; line-height:31px; padding:30px 0px 10px 0px; text-align:center;">=0A=
+				=0A=
+                    <span class=3D"textLink">Thank you for your recent tran=
+saction at Metro</span>=0A=
+                =0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center">=0A=
+		<table width=3D"100%" align=3D"center" style=3D"border-collapse:collapse;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+		<tr>=0A=
+			<td align=3D"left" class=3D"outlook-fallback-font-family alignTextCenter=
+ adjustPadding newFontSizeA1B1C1" style=3D"font-family:Arial, Helvetica, sa=
+ns-serif; font-size:15px; color:#000000; -ms-text-size-adjust:100%; line-he=
+ight:19px; padding:10px 45px 30px 45px; text-align:left;">=0A=
+				=0A=
+                    <span class=3D"textLink"><div style=3D"text-align: cent=
+er;">Here is your digital receipt. Please keep it in your records for futur=
+e reference. We look forward to seeing you again soon!</div></span>=0A=
+                =0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+    =0A=
+=0A=
+                		=0A=
+            		</td>=0A=
+            	</tr>=0A=
+            	</table>=0A=
+    		</td>=0A=
+    	</tr>=0A=
+    	</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">=0A=
+<tr>=0A=
+    <td class=3D"TwoColumns" align=3D"center">=0A=
+		<table class=3D"deviceWidth" width=3D"700" style=3D"min-width:700px;width=
+:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=
+=0A=
+        <tr>=0A=
+			<td bgcolor=3D"#ffffff" style=3D"text-align:center; font-size:0;">=0A=
+				<table class=3D"innerDeviceWidth" width=3D"660" style=3D"min-width:660p=
+x;width:660px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">=0A=
+		        <tr>=0A=
+		            <td class=3D"fullWidth" width=3D"358" valign=3D"top" align=3D=
+"center" bgcolor=3D"#ffffff">=0A=
+        				=0A=
+                        <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+                        <tr>=0A=
+                            <td style=3D"padding:0;">=0A=
+                                =0A=
+    =0A=
+    =0A=
+    =0A=
+=0A=
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center">=0A=
+		<table width=3D"100%" align=3D"center" style=3D"border-collapse:collapse;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+		<tr>=0A=
+			<td align=3D"left" class=3D"outlook-fallback-font-family alignTextLeft a=
+djustPadding newFontSizeA2B1C0" style=3D"font-family:'Roboto Mono','Courier=
+ New', Courier, monospace; font-size:12px; color:#000000; -ms-text-size-adj=
+ust:100%; line-height:15px; padding:0px 0px 0px 0px; text-align:left;">=0A=
+				=0A=
+                    <span class=3D"textLink"><table align=3D"center" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">=0A=
+	<tbody>=0A=
+		<tr>=0A=
+			<td align=3D"center">=0A=
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=0A=
+				<tbody>=0A=
+					<tr>=0A=
+						<td class=3D"outlook-fallback-font-family-receipt ereceipt-font-size"=
+ style=3D"border:1px solid #000000; padding:15px; font-size:12px;font-famil=
+y:'Roboto Mono','Courier New', Courier, monospace;"><br>&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;ALIMENTATION FRANCOIS GERMAIN.INC<br>&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1230 NOTRE DAME OUEST<br>&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TE=
+L: 514-938-4747<br>&nbsp;&nbsp;&nbsp;&nbsp;NOUS EMBAUCHONS<br>metro&amp;Ant=
+oine<br>Num=C3=A9ro de carte:134138931<br><br>EPICERIE<br>&nbsp;&nbsp;CANDR=
+Y B.GAZ.BTL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;FP<br>&nbsp;&nbsp;&nbsp;&nbsp;2 @ 2/$4.50&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.50<br>&nbsp;&nbsp;&nbsp;Rabais=
+ 1.48<br>&nbsp;&nbsp;&nbsp;&nbsp;d=C3=A9p=C3=B4t de bouteille<br>&nbsp;&nbs=
+p;&nbsp;&nbsp;2@$0.05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.10<br>POISS.FRAIS.<br>&nbsp;&nbsp;PROMOT=
+ION 20 MOR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;FP&nbsp;&nbsp;&nbsp;&nbsp;15.99<br><br>SOUS-TOTAL&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;20.59<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20.49&nbs=
+p;&nbsp;T.P.S. (5.000)%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;1.02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20.49&nbsp;&nbsp;T.V.Q.=
+ (9.975)%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+2.04<br><br>TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;23.65<br><br>&nbsp;&nbsp;&nbsp;&nbsp;C.CREDIT&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.65<br>&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nb d'item&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;3<br><br>****** VOS =C3=89CONOMIES DU JOUR ******<br>Rabais promoti=
+onnels&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.48<br>Total =C3=A9conomis=C3=A9 au=
+jourd'hui&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+1.48<br>****************************************<br><br>Points m&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20<br>Points bonus&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0<=
+br>Nouveaux points accumul=C3=A9s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20<br>NOUVEAU SOLDE DE POIN=
+TS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;839<br>Num=C3=A9ro autorisation 469672<br><br>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ECONOMISEZ JUSQU'A 10$ CHAQUE S<br>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AVEC LES COUPONS SUR METRO.CA<br>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TPS 865143622 RT 0001<br>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TVQ 1202454191 TQ 000=
+1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 JO=
+URS DE 8H A 22H<br>&nbsp;Votre opinion est importante. Allez sur<br>METROSO=
+NDAGE.CA et courez la chance de<br>gagner 1000$ D'=C3=89PICERIE GRATUITE.<b=
+r>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;Votre code<br>&nbsp;53560743011232800325<br>..........................=
+...............<br>METRO ETS #2416<br>1230 RUE NOTRE-DAME O<br>MONTREAL&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;, QC<br>&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;JANVIER 17 2023 13:07<br><br>&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RELEV=C3=89 DE TRANSACTION<br>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;CREDIT<br><br># de Trans.&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&n=
+bsp;025000212018<br>Num=C3=A9ro de Carte:&nbsp;&nbsp;************6458 **/**=
+ P<br>AID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;:&nbsp;&nbsp;A0000000041010<br>APP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;MASTERCARD<br>Type de Tra=
+ns. :&nbsp;&nbsp;ACHAT<br># de S=C3=A9quence&nbsp;&nbsp;:&nbsp;&nbsp;162614=
+<br>Code de R=C3=A9ponse:&nbsp;&nbsp;00<br># d'Autor.&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;:&nbsp;&nbsp;02255J<br><br>TVR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;0020008001<br><br>Total&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;23,65 =
+CAD$<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;APPROUVEE - MERCI<br><br>Conservez cette copie pour v=C3=A9rification<br=
+>de votre rapport financier<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;*** COPIE DU CLIENT ***<br>17/01/2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:07<br>&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;999&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+22416 25 3633<br></td>=0A=
+					</tr>=0A=
+				</tbody>=0A=
+			</table>=0A=
+			</td>=0A=
+		</tr>=0A=
+	</tbody>=0A=
+</table></span>=0A=
+                =0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+    =0A=
+=0A=
+                            </td>=0A=
+                        </tr>=0A=
+                        </table>=0A=
+                    </td>=0A=
+					<td width=3D"20" style=3D"width:20px;" bgcolor=3D"#ffffff" class=3D"ho=
+udini">&nbsp;</td>=0A=
+                    <td class=3D"fullWidth" width=3D"281" valign=3D"top" al=
+ign=3D"center" bgcolor=3D"#ffffff">=0A=
+                        =0A=
+                        <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+                        <tr>=0A=
+                            <td style=3D"padding:0;">=0A=
+                                =0A=
+    =0A=
+    =0A=
+    =0A=
+=0A=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center">=0A=
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"ce=
+nter" width=3D"100%">=0A=
+        <tr>=0A=
+        	<td class=3D"alignCenter" align=3D"center" style=3D"padding:10px 0=
+px 10px 0px;">=0A=
+        		=0A=
+        		    <a href=3D"https://tracking.metro.ca/T/OFC4/L2S/6326/M733969/=
+748563/28262828/TWIScj/1/1201925736/ABqkeCKy/I/763457/p5hoqP.html?h=3DdwBoi=
+I699y7fU369O559iy72bm0td2JnM5MFjy3hkes&amp;p1=3DaHR0cHM6Ly9tZXRyb3NvbmRhZ2U=
+uY2EvZXJlY2VpcHQ_c3VydmV5PTUzNTYwNzQzMDExMjMyODAwMzI1">	=0A=
+        		    <img src=3D"http://images.bulletin-metro.ca/data/ereceipt/v2-=
+sondage-EN.jpg" width=3D"281" class=3D"alignCenter resizeImg" border=3D"0" =
+alt=3D"You could win $1000 worth of groceries. Give us your feedback" style=
+=3D"display:block; width:281px; max-width:281px; height:auto; font-family:L=
+ato, sans-serif; color:#000000; font-size:18px; text-align:center;">=0A=
+        		    </a>=0A=
+        		=0A=
+        		=0A=
+        	</td>=0A=
+        </tr>=0A=
+        </table>=0A=
+    </td>=0A=
+</tr>=0A=
+</table>=0A=
+    =0A=
+=0A=
+                            </td>=0A=
+                        </tr>=0A=
+                        </table>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                </table>=0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=0A=
+<tr>=0A=
+    <td class=3D"OneColumn" align=3D"center">=0A=
+    	<table class=3D"deviceWidth" width=3D"700" style=3D"min-width:700px;wi=
+dth:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+>=0A=
+        <tr>=0A=
+    		<td align=3D"center" bgcolor=3D"#ffffff">=0A=
+    		    <table class=3D"innerDeviceWidth" width=3D"700" style=3D"min-widt=
+h:700px;width:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0">=0A=
+				=0A=
+		        <tr>=0A=
+		            <td align=3D"center" bgcolor=3D"#ffffff">=0A=
+            		=0A=
+                			=0A=
+    =0A=
+    =0A=
+    =0A=
+=0A=
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center">=0A=
+		<table width=3D"100%" align=3D"center" style=3D"border-collapse:collapse;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+		<tr>=0A=
+			<td align=3D"left" class=3D"outlook-fallback-font-family alignTextLeft a=
+djustPadding newFontSizeA3B1C0" style=3D"font-family:Arial, Helvetica, sans=
+-serif; font-size:15px; color:#000000; -ms-text-size-adjust:100%; line-heig=
+ht:19px; padding:30px 45px 30px 45px; text-align:left;">=0A=
+				=0A=
+                    <span class=3D"textLinkA3B1C0"><div style=3D"text-align=
+: center;">If you wish to stop receiving your receipts by email, please&nbs=
+p;<a style=3D"text-decoration:underline; color:#333333; font-weight:bold; f=
+ont-style:normal;" href=3D"https://tracking.metro.ca/T/OFC4/L2S/6326/M73396=
+9/748563/28272203/W3wlLt/1/1201925736/ABqkeCKy/I/763457/p5hoqP.html?h=3DTzo=
+t2UCrQPTHVccENiZkXR_xYjT6Lav0mE8W8dCqtEc">click here</a>&nbsp;to manage you=
+r electronic communication preferences.</div></span>=0A=
+                =0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+    =0A=
+=0A=
+                		=0A=
+            		</td>=0A=
+            	</tr>=0A=
+            	</table>=0A=
+    		</td>=0A=
+    	</tr>=0A=
+    	</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=0A=
+<tr>=0A=
+    <td class=3D"OneColumn" align=3D"center">=0A=
+    	<table class=3D"deviceWidth" width=3D"700" style=3D"min-width:700px;wi=
+dth:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+>=0A=
+        <tr>=0A=
+    		<td align=3D"center" bgcolor=3D"#ffffff">=0A=
+    		    <table class=3D"innerDeviceWidth" width=3D"700" style=3D"min-widt=
+h:700px;width:700px; Margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0">=0A=
+				=0A=
+		        <tr>=0A=
+		            <td align=3D"center" bgcolor=3D"#000000">=0A=
+            		=0A=
+                			=0A=
+    =0A=
+    =0A=
+    =0A=
+=0A=
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">=0A=
+<tr>=0A=
+	<td align=3D"center">=0A=
+		<table width=3D"100%" align=3D"left" style=3D"border-collapse:collapse; m=
+so-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">=0A=
+		<tr>=0A=
+			<td align=3D"center" class=3D"outlook-fallback-font-family alignTextCent=
+er adjustPadding newFontSizeA4B1C0 alignText" style=3D"font-family:Arial, H=
+elvetica, sans-serif; font-size:14px; color:#FFFFFF; -ms-text-size-adjust:1=
+00%; line-height:21px; padding:30px 45px 10px 45px; text-align:center;">=0A=
+				=0A=
+                    <span class=3D"textLinkA4B1C0">=0A=
+<table align=3D"center">=0A=
+	<tbody>=0A=
+		<tr>=0A=
+			<td style=3D"middle;"><a style=3D"text-decoration:underline; color:#FFFF=
+FF; font-weight:normal; font-style:normal;" href=3D"https://tracking.metro.=
+ca/T/OFC4/L2S/6326/M733969/748563/28270512/Uo7sxb/1/1201925736/ABqkeCKy/I/7=
+63457/p5hoqP.html?h=3DfCXvenXDA5sxotlE7rtrnM5DAk7R1-RS88Y6G0o3kso"><img ali=
+gn=3D"center" alt=3D"metro et moi" class=3D"no-size resizeImgWithPadding" s=
+rc=3D"http://images.bulletin-metro.ca/data/ereceipt/footer-logo-metro-moi.j=
+pg" style=3D"display: block; border-width: 0px; border-style: solid; width:=
+ 136px; height: 25px;"></a></td>=0A=
+		</tr>=0A=
+	</tbody>=0A=
+</table>=0A=
+&nbsp;=0A=
+=0A=
+<div align=3D"center" style=3D"margin:0; font-size:12px; line-height:24px;m=
+argin-top:0; margin-bottom:10px;">11011 Maurice-Duplessis Blvd. | Montreal,=
+ Quebec | H1C 1V6<br>=0A=
+Consumer services Quebec: 1 (866) 595-5554<br>=0A=
+You've received this email because you asked to receive&nbsp;your in-store =
+receipt by e-mail.<br>=0A=
+Add this email address to your address book: <a href=3D"mailto:transaction@=
+transaction-metro.ca" style=3D"color: #ffffff; text-decoration: underline;t=
+ext-decoration:underline; color:#FFFFFF; font-weight:normal; font-style:nor=
+mal;">transaction@transaction-metro.ca</a><br>=0A=
+metro&amp;moi and m points are registered trademarks of Metro Inc.<br>=0A=
+=C2=A9 All rights reserved. Metro Inc 2019</div><br>=0A=
+   </span>=0A=
+                =0A=
+			</td>=0A=
+		</tr>=0A=
+		</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+    =0A=
+=0A=
+                		=0A=
+            		</td>=0A=
+            	</tr>=0A=
+            	</table>=0A=
+    		</td>=0A=
+    	</tr>=0A=
+    	</table>=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+    =0A=
+=0A=
+	</td>=0A=
+</tr>=0A=
+</table>=0A=
+</div>=0A=
+&nbsp;=0A=
+
+<img alt=3D"" width=3D"3" height=3D"2" src=3D"https://tracking.metro.ca/T/O=
+FC4/T/6326/1201925736/ABqkeCKy.gif">
+</body>=0A=
+</html>=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+
+
+
